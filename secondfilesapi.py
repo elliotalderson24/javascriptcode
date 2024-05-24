@@ -3,7 +3,7 @@ import requests
 # Your API key (replace 'YOUR_API_KEY' with your actual API key)
 api_key = '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'
 # API endpoint
-url = 'http://api.weatherapi.com/v1/current.json'
+url = 'cyberints.com'
 
 # Parameters for the API request
 params = {
