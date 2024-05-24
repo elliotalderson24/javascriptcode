@@ -20,3 +20,4 @@ let distance = 500; // Distance in kilometers
 let travelClass = "economy"; // Travel class: "economy", "business", or "first"
 let totalPrice = calculateTicketPrice(distance, travelClass);
 console.log("Total ticket price: $" + totalPrice);
+BVWjQ2Cy5sHhVArvLbUaQWwIRzYK5WeZ
