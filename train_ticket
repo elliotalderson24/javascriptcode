@@ -1,0 +1,22 @@
+// Function to calculate ticket price based on distance and class
+function calculateTicketPrice(distance, travelClass) {
+    let basePricePerKm = 0.1; // Base price per kilometer
+    let classMultiplier = 1; // Default multiplier for economy class
+
+    // Adjust multiplier for different travel classes
+    if (travelClass === "business") {
+        classMultiplier = 1.5;
+    } else if (travelClass === "first") {
+        classMultiplier = 2;
+    }
+
+    // Calculate total price
+    let totalPrice = basePricePerKm * distance * classMultiplier;
+    return totalPrice.toFixed(2); // Round to 2 decimal places
+}
+
+// Example usage
+let distance = 500; // Distance in kilometers
+let travelClass = "economy"; // Travel class: "economy", "business", or "first"
+let totalPrice = calculateTicketPrice(distance, travelClass);
+console.log("Total ticket price: $" + totalPrice);
