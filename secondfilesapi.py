@@ -10,7 +10,7 @@ params = {
     'key': api_key,
     'q': 'New York'
 }
-
+cyberints_test
 def fetch_weather_data():
     try:
         # Make a request to the weather API
