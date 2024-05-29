@@ -10,7 +10,7 @@ function calculateTicketPrice(distance, travelClass) {
         classMultiplier = 2;
     }
 
-    // Calculate total price
+    // Calculate total price //
     let totalPrice = basePricePerKm * distance * classMultiplier;
     return totalPrice.toFixed(2); // Round to 2 decimal places
 }
