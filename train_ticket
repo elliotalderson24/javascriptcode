@@ -1,4 +1,4 @@
-// Function to calculate ticket price based on distance and class
+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// Function to calculate ticket price based on distance and class
 function calculateTicketPrice(distance, travelClass) {
     let basePricePerKm = 0.1; // Base price per kilometer
     let classMultiplier = 1; // Default multiplier for economy class
