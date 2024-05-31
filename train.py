@@ -18,3 +18,4 @@ distance = 500  # Distance in kilometers
 travel_class = "economy"  # Travel class: "economy", "business", or "first"
 total_price = calculate_ticket_price(distance, travel_class)
 print("Total ticket price: $" + str(total_price))
+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
